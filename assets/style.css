@@ -1,0 +1,48 @@
+
+    a {
+        color:#CC8F60;
+    }
+      
+    body {
+        background-color: rgba(157, 241, 210, 0.267);
+    }
+      
+    hr {
+        border: 5px solid #CC8F60;
+        border-radius: 2px;
+        margin: 2px;
+    }
+
+    .textWrap {
+          width: 150px;
+          height: 150px;
+          float:left;
+          margin: 10px;
+          box-shadow: 3px 4px #CC8F60;
+    }
+
+    .header {
+        color:#CC8F60;
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+    body {
+        background-color: rgba(127, 255, 212, 0.384);
+    }
+    #colorChange {
+        margin: 50px;
+        padding: 30px;
+        background-image: url("./fluid-art-1.jpg");
+    }
+    .shadowbox {
+        margin: 30px;
+        background-color: #ffffff;
+        opacity: 0.85;
+
+    }
+    
