@@ -9,6 +9,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
   
     <style>
+      body {
+        background-color: rgba(127, 255, 212, 0.384);
+      }
+      #colorChange {
+        margin: 50px;
+        padding: 60px;
+        background-image: url("assets/fluid-art-1.jpg");
+      }
+      .shadowbox {
+        margin: 30px;
+        background-color: #ffffff;
+        opacity: 0.85;
+
+      }
+
+  
       hr {
         border: 5px solid aquamarine;
         border-radius: 2px;
@@ -16,47 +32,49 @@
       }
 
       .textWrap {
+          width: 150px;
+          height: 200px;
           float:left;
           margin: 10px;
+          box-shadow: 3px 4px rgba(118, 209, 177, 0.473);
       }
     </style>
 </head>
 <body>
- <div class="container"class="d-inline-flex p-2 bd-highlight">
+ <div class="container" class="d-inline-flex p-2 bd-highlight">
    
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
 
   </div>
 
-
-    <div class="jumbotron text-left">
-      <h3>Christopher Gutierrez</h3>
-      <hr> 
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <img class="textWrap" src="./assets/placeholder.jpeg" alt="wave" height="200px" width="150px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor elementum ante, vitae scelerisque enim tincidunt non. Maecenas imperdiet massa a sem luctus, ac dapibus eros tristique. Sed accumsan at tellus fermentum scelerisque. Vivamus porta sed ipsum in fringilla. Aliquam molestie finibus accumsan. Ut hendrerit odio nec maximus dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tincidunt condimentum nibh, vel pellentesque neque tempus sit amet. Suspendisse sollicitudin lobortis metus id bibendum. In hac habitasse platea dictumst. Nunc ac pulvinar ligula, in posuere mi. Donec fermentum, erat ac pulvinar dapibus, nulla enim feugiat ante, tempor egestas ex nisl eu nunc.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor elementum ante, vitae scelerisque enim tincidunt non. Maecenas imperdiet massa a sem luctus, ac dapibus eros tristique. Sed accumsan at tellus fermentum scelerisque. Vivamus porta sed ipsum in fringilla. Aliquam molestie finibus accumsan. Ut hendrerit odio nec maximus dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tincidunt condimentum nibh, vel pellentesque neque tempus sit amet. Suspendisse sollicitudin lobortis metus id bibendum. In hac habitasse platea dictumst. Nunc ac pulvinar ligula, in posuere mi. Donec fermentum, erat ac pulvinar dapibus, nulla enim feugiat ante, tempor egestas ex nisl eu nunc.
-        
+  <div class="container" id="colorChange">
+      <div class="shadowbox">
+        <div class="jumbotron text-left">
+          <h3>Christopher Gutierrez</h3>
+          <hr> 
         </div>
-        <div class="col-md-4"></div> 
-      </div>
+    
+        <div class="row">
+          <div class="col-md-8">
+            <img class="textWrap" src="./assets/placeholder.jpeg" alt="wave" height="200px" width="150px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor elementum ante, vitae scelerisque enim tincidunt non. Maecenas imperdiet massa a sem luctus, ac dapibus eros tristique. Sed accumsan at tellus fermentum scelerisque. Vivamus porta sed ipsum in fringilla. Aliquam molestie finibus accumsan. Ut hendrerit odio nec maximus dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tincidunt condimentum nibh, vel pellentesque neque tempus sit amet. Suspendisse sollicitudin lobortis metus id bibendum. In hac habitasse platea dictumst. Nunc ac pulvinar ligula, in posuere mi. Donec fermentum, erat ac pulvinar dapibus, nulla enim feugiat ante, tempor egestas ex nisl eu nunc.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor elementum ante, vitae scelerisque enim tincidunt non. Maecenas imperdiet massa a sem luctus, ac dapibus eros tristique. Sed accumsan at tellus fermentum scelerisque. Vivamus porta sed ipsum in fringilla. Aliquam molestie finibus accumsan. Ut hendrerit odio nec maximus dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tincidunt condimentum nibh, vel pellentesque neque tempus sit amet. Suspendisse sollicitudin lobortis metus id bibendum. In hac habitasse platea dictumst. Nunc ac pulvinar ligula, in posuere mi. Donec fermentum, erat ac pulvinar dapibus, nulla enim feugiat ante, tempor egestas ex nisl eu nunc.
+        
+          </div>
+          <div class="col-md-4"></div> 
+          </div>
     </div>
+  </div>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
