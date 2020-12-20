@@ -22,8 +22,8 @@ The contact form is from bootstrap as well I didnt alter it much as it is a pret
 
 I tried to group classes and ids together to make it easier to compare and figure out which elements are used on each HTML.  In order to style the footer without any interference from the rest of the style sheets I had to designate it with !important.  This is the first time I have created any of these elements from scratch and it was pretty tough trying to group them.  I am not sure if this is a *best practice* or not but it made sense and makes it easier for me to follow at least.
 
-I have included links to the deployed site in this readme.
-
+Here is the deployed site!
+https://cmgson.github.io/homework-2/
 
 
 
