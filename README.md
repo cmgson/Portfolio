@@ -1,5 +1,7 @@
 # **Homework unit two- using html, css, and bootstrap to build a portfolio website** #
 
+![screenshot](./assets/screenshot.png)
+
 ## *Home Page*
 
 Using HTML CSS and Bootstrap I was able to make everything viewable from any size window.  It should flow very easily no matter the viewport wether viewing from a desktop or a cell phone.  I had a little trouble with sizing and making sure everything was fitting together and not overflowing when switching from a large viewing size to smaller.
