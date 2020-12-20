@@ -12,6 +12,29 @@
         border-radius: 2px;
         margin: 2px;
     }
+    img {
+        margin: 10px;
+        padding: 10px;
+    }
+    footer {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        align-items: center;
+        
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+
 
     .textWrap {
           width: 150px;
@@ -31,9 +54,7 @@
         font-size: 35px;
         color: #36A0FF;
     }
-    body {
-        background-color: rgba(127, 255, 212, 0.384);
-    }
+    
     #colorChange {
         margin: 50px;
         padding: 30px;
@@ -45,8 +66,3 @@
         opacity: 0.85;
 
     }
-    img {
-        margin: 10px;
-        padding: 10px;
-    }
-    
