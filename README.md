@@ -1,4 +1,4 @@
-# **Homework unit two- using html, css, and bootstrap to build a portfolio website** #
+# **Portfolio** #
 
 ![screenshot](./assets/screenshot.png)
 
